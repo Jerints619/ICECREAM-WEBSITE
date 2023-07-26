@@ -1,0 +1,336 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+}
+
+html,body{
+
+  width: 100%;
+  height: 100%;
+
+}
+
+.font{
+
+    color: aliceblue;
+
+}
+
+button{
+
+  border-radius: 10px;
+  width: 17%;
+  height: 10%;
+
+
+}
+
+#pizza1{
+  
+  margin-top: 10%;
+  transform: rotate();
+  
+  transition: cubic-bezier(0.19, 1, 0.22, 1)3s;
+}
+
+#pizza2{
+  
+  position: relative;
+  bottom: 37%;
+  left: 10%;
+  transform: rotate(-50deg);
+  transition: cubic-bezier(0.19, 1, 0.22, 1)3s;
+  transition-delay: 3s;
+
+}
+
+#pizza3{
+  
+  position: relative;
+  bottom: 97%;
+  left: 32%;
+  transform: rotate(-97deg);
+  transition: cubic-bezier(0.19, 1, 0.22, 1)3s;
+  transition-delay: 5s;
+
+}
+
+
+#pizza4{
+  
+  position: relative;
+  bottom: 180%;
+  left: 49%;
+  transform: rotate(-145deg);
+  transition: cubic-bezier(0.19, 1, 0.22, 1)3s;
+  transition-delay: 6s;
+
+}
+
+#pizza5{
+  
+  position: relative;
+  bottom: 275%;
+  left: 50%;
+  transform: rotate(-195deg);
+  transition: cubic-bezier(0.19, 1, 0.22, 1)3s;
+  transition-delay: 7s;
+
+}
+
+#pizza6{
+  
+  position: relative;
+  bottom: 359%;
+  left: 34%;
+  transform: rotate(-246deg);
+  transition: cubic-bezier(0.19, 1, 0.22, 1)3s;
+  transition-delay: 9s;
+  
+
+}
+
+#pizza7{
+  
+  position: relative;
+  bottom: 413%;
+  left: 8%;
+  transform: rotate(50deg);
+  transition: cubic-bezier(0.19, 1, 0.22, 1)3s;
+  transition-delay: 12s;
+
+}
+
+#pizza8{
+  
+  position: relative;
+  bottom: 465%;
+  left: 23%;
+  transform: rotate(85deg);
+  transition: cubic-bezier(0.19, 1, 0.22, 1)3s;
+  transition-delay: 15s;
+
+}
+
+#midright:hover #pizza1{
+
+  transform: scale(1%);
+  transition: cubic-bezier(0.19, 1, 0.22, 1)3s;
+
+
+}
+
+#midright:hover #pizza2{
+
+  transform: scale(1%);
+  transition: cubic-bezier(0.19, 1, 0.22, 1)3s;
+  transition-delay: 3s;
+
+}
+
+#midright:hover #pizza3{
+
+  transform: scale(1%);
+  transition: cubic-bezier(0.19, 1, 0.22, 1)3s;
+  transition-delay: 5s;
+
+}
+
+#midright:hover #pizza4{
+
+  transform: scale(1%);
+  transition: cubic-bezier(0.19, 1, 0.22, 1)3s;
+  transition-delay: 6s;
+
+}
+
+#midright:hover #pizza5{
+
+  transform: scale(1%);
+  transition: cubic-bezier(0.19, 1, 0.22, 1)3s;
+  transition-delay: 7s;
+
+}
+
+#midright:hover #pizza6{
+
+  transform: scale(1%);
+  transition: cubic-bezier(0.19, 1, 0.22, 1)3s;
+  transition-delay: 9s;
+
+}
+
+#midright:hover #pizza7{
+
+  transform: scale(1%);
+  transition: cubic-bezier(0.19, 1, 0.22, 1)3s;
+  transition-delay: 12s;
+
+}
+
+#midright:hover #pizza8{
+
+  transform: scale(1%);
+  transition: cubic-bezier(0.19, 1, 0.22, 1)3s;
+  transition-delay: 15s;
+
+}
+
+
+.circle{
+
+   width: 18%;
+   height: 100%;
+   background-color: rgb(165, 42, 42);
+   border-radius: 50%;
+   
+}
+
+#circle1{
+
+  background-image: url(pine1.jpg);
+  background-position: center;
+  background-size: cover ;
+  transition: cubic-bezier(0.455, 0.03, 0.515, 0.955)5s;
+
+}
+
+#circle1:hover{
+
+  background-image: url(pineapple2.jpg);
+  transition: cubic-bezier(0.165, 0.84, 0.44, 1)5s;
+  border-radius: 30%;
+
+}
+
+
+
+#circle2{
+
+  background-image: url(strawbery.jpg);
+  background-position: center;
+  background-size: cover ;
+  transition: cubic-bezier(0.455, 0.03, 0.515, 0.955)5s;
+
+}
+
+#circle2:hover{
+
+  background-image: url(strawbery2.jpg);
+  transition: cubic-bezier(0.165, 0.84, 0.44, 1)5s;
+  border-radius: 30%;
+
+}
+
+
+
+#circle3{
+
+  background-image: url(tomatoes1.jpg);
+  background-position: center;
+  background-size: cover ;
+  transition: cubic-bezier(0.455, 0.03, 0.515, 0.955)5s;
+
+}
+
+#circle3:hover{
+
+  background-image: url(tomatoes2.jpg);
+  transition: cubic-bezier(0.165, 0.84, 0.44, 1)5s;
+  border-radius: 30%;
+
+}
+
+
+
+#circle4{
+
+  background-image: url(blueberry1pic.jpg);
+  background-position: center;
+  background-size: cover ;
+  transition: cubic-bezier(0.455, 0.03, 0.515, 0.955)5s;
+
+}
+
+#circle4:hover{
+
+  background-image: url(blue1.jpg);
+  transition: cubic-bezier(0.165, 0.84, 0.44, 1)3s;
+  border-radius: 30%;
+
+}
+
+
+
+
+#circle5{
+
+  background-image: url(pear1.jpg);
+  background-position: center;
+  background-size: cover ;
+  transition: cubic-bezier(0.455, 0.03, 0.515, 0.955)5s;
+
+}
+
+#circle5:hover{
+
+  background-image: url(downloadpear.jpg);
+  transition: cubic-bezier(0.165, 0.84, 0.44, 1)5s;
+  border-radius: 30%;
+
+}
+
+
+#low{
+
+  background-image: url(istockphoto-1197720522-612x612.jpg);
+  
+}
+
+#maindiv{
+
+  background-image: url(istockphoto-1152641849-612x612.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+
+@font-face {
+  font-family: cena ;
+  src: url(AnandaBlackPersonalUseRegular-rg9Rx.ttf);
+}
+
+h1{
+
+  font-family: cena;
+  color: rgb(121, 48, 21);
+}
+
+button{
+
+  background-color: yellow;
+  color: rgb(16, 43, 43);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  transition: 3s;
+}
+
+button:hover{
+
+  cursor: pointer;
+  background-color: rgb(204, 58, 162);
+  transition: 3s;
+}
+
+h5{
+
+  color: rgb(22, 22, 76);
+
+}
+
+h5:hover{
+
+  cursor: pointer;
+
+}
